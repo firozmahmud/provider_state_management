@@ -5,7 +5,7 @@ import 'package:provider_state_management/number_data.dart';
 
 import 'next_screen.dart';
 
-class MyApp extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var data = Provider.of<NumberData>(context);

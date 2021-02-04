@@ -14,6 +14,6 @@ void main() {
       create: (context) => NumberData(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: MyApp(),
+        home: HomeScreen(),
       )));
 }
